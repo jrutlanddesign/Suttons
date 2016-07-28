@@ -1,0 +1,9 @@
+nav {
+  top: -600px;
+  position: absolute;
+  transition: top ease-in .4s;
+  
+  &.open {
+    top: 80px;
+  }
+}
