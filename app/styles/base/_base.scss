@@ -7,7 +7,9 @@
  */
 html {
   box-sizing: border-box;
+  font-size: 62.5%; // set font size for REM
 }
+
 
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
@@ -31,3 +33,5 @@ a {
     text-decoration: underline;
   }
 }
+
+
