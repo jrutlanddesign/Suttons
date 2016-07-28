@@ -3,17 +3,17 @@
 // -----------------------------------------------------------------------------
 
 header {
-	background-color: $brandBlue;
+	background-color: $white;
 	position: relative;
 	z-index: 5;
 	height: 95px;
 }
 
 .logo {
-	position: relative;
-	bottom: 0;
-	left: 0;
+	margin: 10px 0 10px 10px;
+	height: 60px;
 }
+
 
 #topContact {
 	background-color: $brandGreen;
@@ -49,11 +49,6 @@ header {
 		height: 80px;
 	}
 
-	.logo {
-		position: absolute;
-	    bottom: -40px;
-	    left: 5%;
-	}
 
 	#topContact {
 		width: 30%;

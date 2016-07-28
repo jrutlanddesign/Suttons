@@ -45,22 +45,23 @@ nav {
   nav {
     position: relative;
     top: 0;
-    background-color: $white;
-    color: $text-color;
+    background-color: $brandBlue;
+    color: $white;
 
     ul {
       display: flex;
       justify-content: flex-end;
 
       a {
-        color: $text-color;
+        color: $white;
         text-decoration: none;
-        border-bottom: solid 3px $white;
+        border-bottom: solid 3px $brandBlue;
 
         &:hover {
-          color: $brandBlue;
-          border-bottom: solid 3px $brandBlue;
+          color: $white;
+          border-bottom: solid 3px $brandGreen;
           text-decoration: none;
+          cursor: pointer;
         }
       }
     }

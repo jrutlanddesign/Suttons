@@ -88,6 +88,9 @@ footer {
 		flex-wrap: wrap;
 		padding: 30px 5%;
 		align-items: flex-start;
+		font-size: 1.2rem; font-size: 12px;
+		line-height: 16px;
+
 
 		.twentyFive {
 			width: 25%;
@@ -113,6 +116,22 @@ footer {
 
 		.lower {
 			width: 100%;
+			display: flex;
+			
+			.copyright {
+				width: 50%;
+				text-align: left;
+				display: inline-block;
+				vertical-align: top;
+			}
+
+			.designBy {
+				width: 50%;
+				text-align: right;
+				display: inline-block;
+				vertical-align: top;
+			}
+
 		}
 
 	} // footer
