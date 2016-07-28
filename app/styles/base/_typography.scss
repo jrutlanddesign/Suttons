@@ -29,3 +29,15 @@ h1 {
 	font-weight: 700;
 	font-style: italic;
 }
+
+@media screen and (min-width: 1024px) {
+
+	h1 {
+		font-weight: 700;
+		font-size: 3.5rem;
+		font-size: 35px;
+		width: 65%;
+		margin: 50px auto;
+		line-height: 45px;
+	}
+}
