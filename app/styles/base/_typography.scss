@@ -4,4 +4,28 @@
 body {
   color: $text-color;
   font: normal 125% / 1.4 $text-font-stack;
+  font-size: 1.4rem; font-size: 14px;
+  line-height: 25px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 2.5rem;
+	font-size: 25px;
+
+	&:after {
+		display: block;
+		width: 50px;
+		height: 4px;
+		background-color: $brandBlue;
+		border-radius: 5px;
+		content: '';
+		margin-top: 20px;
+	}
+}
+
+// additional classes 
+.boldItalic {
+	font-weight: 700;
+	font-style: italic;
 }
