@@ -1,3 +1,48 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+.titleContain, article {
+	padding: 0 10%;
+	margin: 50px 0;
+}
+
+#services {
+
+	.icon {
+		width: 100%;
+		background-color: $brandGreen;
+		color: $white;
+		margin: 0; padding: 0;
+		padding: 30px;
+		border-bottom: solid 1px lighten( $brandGreen, 20% );
+
+		img {
+			margin-right: 25px;
+			width: 50px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		h2 {
+			display: inline-block;
+			vertical-align: middle;
+			width: calc(100% - 125px;)
+		}
+	} // icon
+} // services
+
+@media screen and (min-width: 720px) {
+	#services {
+		display: flex;
+		flex-wrap: wrap;
+		.icon {
+			width: 50%;
+			display: inline-block;
+
+			&:nth-child(odd) {
+				border-right: solid 1px lighten( $brandGreen, 20% );
+			}
+		} // icon
+	} // services
+}
