@@ -1,3 +1,120 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+#warning {
+	background-color: $brandBlue;
+	color: $white;
+	text-align: left;
+	font-weight: 700;
+	font-size: 1.4rem; font-size: 14px;
+	text-transform: uppercase;
+	position: relative;
+	padding: 30px calc(5% + 20px);
+
+	&::before {
+		content: '';
+		background: url('../images/warning.svg') center #FBC120 no-repeat;
+		background-size: 60%;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		position: absolute;
+		top: -20px;
+		left: 5%;
+		display: block;
+		border: solid 3px $white;
+	}
+}
+
+footer {
+	position: relative;
+	background-color: $lightGrey;
+
+	.twentyFive {
+		width: 100%;
+		position: relative;
+		background-color: $midGrey;
+		padding: 90px 0 20px;
+
+		address, b {
+			padding: 0 5%;
+		}
+	}
+
+	.seventyFive {
+		padding: 20px 5%;
+	}
+
+	.lower {
+		padding: 20px 0;
+		margin: 10px auto;
+		border-top: solid 1px $midGrey;
+		width: 90%;
+		text-align: center;
+	}
+
+	#social {
+		position: absolute;
+		display: flex;
+		background-color: $lightGrey;
+		top: 0;
+		align-items: center;
+		justify-content: space-around;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		img {
+			height: 30px;
+		}
+	}
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+	#warning { 
+		text-align: center;
+
+		&::before {
+			margin: 0 auto;
+			left:0; right: 0;
+		}
+	}
+	footer {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 30px 5%;
+		align-items: flex-start;
+
+		.twentyFive {
+			width: 25%;
+			background-color: $lightGrey;
+			padding: 20px 0;
+
+			#social {
+				position: relative;
+
+				img {
+					height: 45px
+				}
+			}
+		}
+
+		.seventyFive {
+			width: 75%;
+
+			p:first-of-type {
+				margin-top: 0;
+			}
+		}
+
+		.lower {
+			width: 100%;
+		}
+
+	} // footer
+
+}
