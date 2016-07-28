@@ -1,7 +1,7 @@
 <ul>
-	<a href="#"><li>Mortgages</li></a>
-    <a href="#"><li>Life Assurance</li></a>
-    <a href="#"><li>Protection</li></a>
-    <a href="#"><li>Home Insurance</li></a>
-    <a href="#"><li>Contact Us</li></a>
+	<a href="mortgages.php"><li>Mortgages</li></a>
+    <a href="life-assurance.php"><li>Life Assurance</li></a>
+    <a href="protection.php"><li>Protection</li></a>
+    <a href="home-insurance.php"><li>Home Insurance</li></a>
+    <a href="contact-suttons-mortgage-brokers.php"><li>Contact Us</li></a>
 </ul>
