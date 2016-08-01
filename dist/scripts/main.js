@@ -1,1 +1,1 @@
-console.log("Website design by Joe Rutland - http://joerutland.com"),$(document).ready(function(){$(".navTrigger").click(function(){$("nav").toggleClass("open")})});
+console.log("Website design by Joe Rutland - http://joerutland.com"),$(document).ready(function(){$(".navTrigger").click(function(){$("nav").toggleClass("open")}),$(window).scroll(function(){var o=$(window).scrollTop();o>=100?$("nav").addClass("dropHead"):$("nav").removeClass("dropHead")})});
